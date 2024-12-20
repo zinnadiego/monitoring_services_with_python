@@ -56,7 +56,7 @@ sistema-monitoreo/
 
 1. Clonar o descargar los archivos del programa:
    ```bash
-   git clone [URL_del_repositorio]
+   git clone https://github.com/zinnadiego/monitoring_services_with_python
    cd sistema-monitoreo
    ```
 
