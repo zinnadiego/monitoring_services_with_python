@@ -1,0 +1,33 @@
+{
+    "websites": {
+        "Web uno": "https://www.direccionwebuno.com",
+        "Web dos": "https://www.direccionwebdos.com"
+    },
+    "databases": {},
+    "email": {
+        "smtp_server": "mail.servidor.com",
+        "smtp_port": 587,
+        "smtp_use_tls": true,
+        "smtp_use_ssl": false,
+        "sender_email": "ejemplo@tucorreo.com",
+        "sender_password": "tupassword",
+        "recipient_emails": [
+            "ejemplo@tucorreo.com",
+            "ejemplo@tucorreo.com"
+        ]
+    },
+    "monitor_settings": {
+        "check_interval": 60,
+        "retry_attempts": 3,
+        "retry_delay": 6,
+        "alert_threshold": 3,
+        "recovery_threshold": 2,
+        "alert_repeat_interval": 20 
+    },
+    "logging_settings": {
+        "enable_file_logging": false,
+        "max_bytes": 5242880,
+        "backup_count": 5,
+        "log_file": "monitor_servicios.log"
+    }
+}
